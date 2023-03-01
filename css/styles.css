@@ -5,11 +5,83 @@
 body{
     padding: 0;
     border: 0;
+    background-color: black;
+    color: yellow;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.si{
-    background-image: url(img/background.png);
-    width: 100vh;
-    height: 100vh;
+
+.fondo{
+    background-image: url(../img/background.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
 }
+
+.life{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pacman{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: pac 10s infinite;
+}
+
+@keyframes pac {
+
+    0% {top: 28px; left: -35px;}
+    10% {top: 145px; }
+    10% {top: 145px; left: -35px;}
+
+    20% {top: 145px; left: 50px;}
+    30% {left: 50px; top: 245px;}
+    35% {top: 245px; left: 100px;}
+    45% {left: 100px; top: 95px;}
+    55% {top: 95px; left: 300px;}
+    60% {left: 300px; top: 145px;}
+    65% {top: 145px; left: 355px;}
+    70% {left: 355px; top: 195px;}
+    80% {top: 195px; left: 375px;}
+    100% {left: 375px; top: 250px;}
+
+    
+    
+}
+
+
+ 
+.fantasmon{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: fan 1s infinite;
+}
+
+@keyframes fan {
+    0% {top: 45px; right: 35px;}
+    100% {top: 45px; right: 35px;}
+    
+}
+
+
+.ham{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: ham 1s infinite;
+}
+
+@keyframes ham {
+    0% {top: 30px; left: 377px;}
+    100% {top: 30px; left: 377px;}
+    
+}
+
 
