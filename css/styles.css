@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    border: 0;
+}
+
+.si{
+    background-image: url(img/background.png);
+    width: 100vh;
+    height: 100vh;
+}
+
