@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: pactittle;
+    src: url(../fonts/tittle.TTF);
+}
+
+@font-face {
+    font-family: pacm;
+    src: url(../fonts/Joystix.TTF);
+}
+
 body{
     padding: 0;
     border: 0;
@@ -13,12 +23,33 @@ body{
     justify-content: center;
 }
 
+.pactittle{
+    font-family: pactittle;
+    font-size: 5rem;
+}
+
+.pacfont{
+    font-family: pacm;
+    font-size: 1rem;
+    color: white;
+}
+
+.pacfontli{
+    font-family: pacm;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.h1lol{
+    background-color: yellow;
+    color: black;
+}
 
 .fondo{
     background-image: url(../img/background.png);
-    background-size: 100%;
+    background-size: 132vh;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 85vh;
 }
 
 .life{
